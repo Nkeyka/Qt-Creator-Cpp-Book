@@ -43,6 +43,8 @@ int main()
                     y1 = m * x1 * x1 + n * x1 + pp;
                     cout << "x = " << x1 << " y = " << y1 << endl;
                 }
+                else
+                    cout << "No";
                 return 0;
             }
         }

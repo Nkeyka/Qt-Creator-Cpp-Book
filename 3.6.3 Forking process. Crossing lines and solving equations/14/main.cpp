@@ -40,6 +40,8 @@ int main()
                     y1 = b * x1 * x1 + c * x1 + d;
                     cout << "x = " << x1 << " y = " << y1 << endl;
                 }
+                else
+                    cout << "No";
                 return 0;
             }
         }

@@ -41,6 +41,8 @@ int main()
             y1 = k * x1 + m;
             cout << "x = " << x1 << " y = " << y1 << endl;
         }
+        else
+            cout << "No";
 
     }
 
