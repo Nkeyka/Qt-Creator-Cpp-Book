@@ -19,7 +19,7 @@ int main()
     else {
         if (a == 0) {
             if (b == 0) {
-                x1 = d == 0 ? 0 : c / (-d);
+                x1 = d == 0 ? 0 : -d / c;
                 y1 = c * x1 + d;
                 cout << "x = " << x1 << " y = " << y1 << endl;
                 return 0;
